@@ -4,6 +4,8 @@
 
 这个仓库只提供安装包、用户说明与反馈入口。软件的开发源码仓库保持私有。
 
+[查看产品界面、演示视频与下载网站](https://algorithm-workbench-beta.noble-hawk-5980.chatgpt.site)
+
 ## 下载 v0.2.4 Preview
 
 - [Windows x64 安装包](https://github.com/Fingxing2025/algorithm-learning-workbench-downloads/releases/download/v0.2.4/algorithm-learning-workbench-0.2.4-win-x64.exe)

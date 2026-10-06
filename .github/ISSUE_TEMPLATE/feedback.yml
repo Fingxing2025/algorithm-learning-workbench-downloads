@@ -1,0 +1,38 @@
+name: 使用反馈
+description: 记录试用中遇到的问题或改进建议
+title: "[反馈] "
+body:
+  - type: markdown
+    attributes:
+      value: 请勿填写 API Key，或上传个人题库、完整工作区；截图请先脱敏。
+  - type: input
+    id: version
+    attributes:
+      label: 软件版本
+      placeholder: 例如 v0.2.4
+    validations:
+      required: true
+  - type: dropdown
+    id: system
+    attributes:
+      label: 使用系统
+      options:
+        - Windows x64
+        - macOS Apple Silicon
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 操作步骤或建议
+      description: 从哪个页面开始，做了什么操作？
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: 期望与实际结果
+      description: 你希望发生什么，实际看到了什么？可以附脱敏截图。
+    validations:
+      required: true
